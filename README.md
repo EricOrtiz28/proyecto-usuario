@@ -136,8 +136,6 @@ Todos los datos de usuario se almacenan en una base de datos **SQLite** ubicada 
 - **Backend**: `http://127.0.0.1:8000`
 - **Frontend**: `http://localhost:3000`
 
-Claro, a continuación se añaden las condiciones necesarias para que los datos ingresados en el formulario sean válidos. Estas condiciones se deben documentar en la sección de "Validación de Datos" dentro de la documentación.
-
 ---
 
 ## Validación de Datos
