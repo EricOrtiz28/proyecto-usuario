@@ -1,0 +1,84 @@
+/* src/components/Form.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #f0f0f5, #dbe7f0);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    width: 90%;
+    max-width: 1000px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.left-column, .right-column {
+    width: 50%;
+    padding: 20px;
+}
+
+.title {
+    font-size: 1.8rem;
+    color: #003366;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form input[type="text"], .form input[type="date"], .form button, .form .select {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.form button {
+    background-color: #005b99;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form button:hover {
+    background-color: #004080;
+}
+
+.user-info {
+    text-align: center;
+    color: #333;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.user-avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto 15px auto;
+}
+
+.formatted-message {
+    font-size: 1rem;
+    color: #333;
+    margin-top: 15px;
+    font-style: italic;
+}
+
+.placeholder {
+    color: #aaa;
+    text-align: center;
+    margin-top: 50%;
+}

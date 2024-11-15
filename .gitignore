@@ -1,0 +1,25 @@
+# Ignorar dependencias de Python (backend)
+backend/__pycache__/
+backend/*.pyc
+backend/env/
+backend/venv/
+backend/.env
+backend/usuarios.db  # Base de datos SQLite (si no quieres rastrearla)
+
+# Ignorar dependencias de Node.js (frontend)
+frontend/node_modules/
+frontend/.env
+frontend/build/
+frontend/.DS_Store
+frontend/dist/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+*.log
+
+# Ignorar carpetas y archivos ocultos de configuración de IDEs y editores de texto
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
